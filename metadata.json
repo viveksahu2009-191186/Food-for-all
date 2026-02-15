@@ -1,0 +1,8 @@
+{
+  "name": "Food For All",
+  "description": "A social-impact platform connecting surplus food with people in need, reducing waste and fostering community through AI and real-time coordination.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
