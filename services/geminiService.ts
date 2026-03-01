@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ import.meta.env.VITE_API_KEY});
 
 export const analyzeFoodDonation = async (description: string, imageUrl?: string) => {
   const model = 'gemini-3-flash-preview';
